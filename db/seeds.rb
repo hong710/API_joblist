@@ -12,7 +12,7 @@ jobs = Job.create([
         client:"Pwc",
         poc: "Maria Rodriguez",
         poc_email: "MRD43@datapiper.com",
-        role:" Core Senior Software Developer - Senior Associate",
+        role:" Core Senior Software Developer",
         urgency: "High",
         quantity: 1,
         skills: 'Java, Springboot Docker/Kubernetes, API/microservices/Cloud'
