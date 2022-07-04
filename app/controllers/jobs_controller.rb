@@ -10,6 +10,15 @@ class JobsController < ApplicationController
         render json: job, status: :created        
     end
 
+    def show
+        job = Job.find_by(id:params[:id])
+        if job
+            render json: job, status: :ok        
+       else
+            render json: {error: "job not found"}
+       end
+    end
+
     private
 
     def job_params
