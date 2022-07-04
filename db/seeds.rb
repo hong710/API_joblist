@@ -15,53 +15,82 @@ jobs = Job.create([
         role:" Core Senior Software Developer",
         urgency: "High",
         quantity: 1,
-        skills: 'Java, Springboot Docker/Kubernetes, API/microservices/Cloud'
+        skills: 'Java, Springboot, Docker/Kubernetes, API/Cloud'
     },
     {
-        client:"Pwc",
-        poc: "Maria Rodriguez",
-        poc_email: "MRD43@datapiper.com",
+        client:"Google",
+        poc: "John Smith",
+        poc_email: "JS@datapiper.com",
         role:" UI/UX Developer",
         urgency: "High",
         quantity: 1,
-        skills: 'React, Redux, RESTful APIs, HTML / CSS'
+        skills: 'React, Redux, RESTful APIs, HTML/CSS'
     },
 
     {
-        client:"Pwc",
+        client:"Next",
         poc: "David Smith",
-        poc_email: "DavidS_33@datapiper.com",
+        poc_email: "DS@datapiper.com",
         role:" DataVault 2.0",
         urgency: "High",
         quantity: 1,
-        skills: 'Datavault 2.0 certified'
+        skills: 'Datavault 2.0 certified, Security+, Tableau '
     },
     {
-        client:"Pwc",
+        client:"ADP",
         poc: "Rob Adams",
-        poc_email: "A!2Robert@datapiper.com",
+        poc_email: "A.Robert@datapiper.com",
         role:" Zen Developer",
         urgency: "Med",
         quantity: 3,
-        skills: 'Zendesk Developer'
+        skills: 'Zendesk Developerm Python, Databases'
     },
     {
-        client:"Pwc",
+        client:"HCL",
         poc: "Eliza Cath",
         poc_email: "Eliza_Cat@datapiper.com",
         role:" Snowflake data engineer",
-        urgency: "Low",
+        urgency: "Med",
         quantity: 3,
-        skills: 'JD'
+        skills: 'Databases, Python, SQL, C++'
     },
     {
-        client:"Pwc",
+        client:"Netflix",
         poc: "Eliza Cath",
         poc_email: "Eliza_Cat@datapiper.com",
         role:" Snaplogic Developer",
         urgency: "Low",
         quantity: 1,
         skills: 'Java ,python, SQL server, APIs'
+    },
+
+    {
+        client:"Sony",
+        poc: "Liz Mendez",
+        poc_email: "Liz_M@datapiper.com",
+        role:" Junior Software Developer",
+        urgency: "Low",
+        quantity: 1,
+        skills: 'Java ,python, SQL server, APIs'
+    },
+
+    {
+        client:"GM",
+        poc: "Brad Torres",
+        poc_email: "Brad_T@datapiper.com",
+        role:" Devops Developer",
+        urgency: "Low",
+        quantity: 1,
+        skills: 'Docker ,python, SQL, server, Linux'
+    },
+    {
+        client:"Facebook",
+        poc: "Ron Reilly",
+        poc_email: "Ron_R@datapiper.com",
+        role:"  Front end Developer",
+        urgency: "Low",
+        quantity: 1,
+        skills: 'React, Angular, SQL, Linux'
     },
 
 ])
